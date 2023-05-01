@@ -1,0 +1,16 @@
+{
+  "name": "sonsa-ticket-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.5.3",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1"
+  }
+}
